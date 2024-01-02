@@ -1,9 +1,15 @@
+"use client"
 import Image from 'next/image'
+import { Hero } from './components'
+import Spline from '@splinetool/react-spline';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="overflow-hidden">
+      <Hero></Hero>
       
     </main>
+      
+    
   )
 }

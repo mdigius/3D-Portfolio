@@ -1,27 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.hero__title {
+  @apply text-[72px] sm:text-[64px] text-[50px] font-extrabold;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+
+}
+.navbar {
+  display: flex;
+  background-color: #333;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  justify-content: flex-end; /* Align items to the right */
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.nav-link:hover {
+  color: #ffcc00;
+}
+.max-width {
+  @apply max-w-[1440px] mx-auto;
+}
+
+.padding-x {
+  @apply sm:px-16 px-6;
+}
+
+.padding-y {
+  @apply py-4;
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
+}
+
+.flex-between {
+  @apply flex justify-between items-center;
+}
+
+.hero {
+  @apply flex xl:flex-row flex-col gap-5
+  relative z-0 max-w-[1440px] mx-auto;
+}
+.hero__image-container {
+  @apply xl:flex-[1.5] flex justify-end items-end w-full xl:h-screen z-10;
+}
+
+.hero__image {
+  @apply relative xl:w-[80%] w-[70%] xl:h-full h-[590px] z-10;
+}
+
+.hero__title {
+  @apply text-[72px] sm:text-[64px] text-[50px] font-extrabold mt-8;
+}
+
+.hero__subtitle {
+  @apply text-[27px] font-light;
 }
