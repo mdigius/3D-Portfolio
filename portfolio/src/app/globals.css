@@ -15,9 +15,38 @@
   font-family: "Manrope", sans-serif;
 
 }
+.about-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.about-menu {
+  border-radius: 30px;
+  display: flex;
+  background-color: lightblue;
+  padding: 20px;
+  width: 90%;
+  justify-content: center;
+  align-self: center;
+}
+
+.about-item {
+  text-align: center;
+  border-radius: 15px;
+  justify-content: center;
+  padding: 10px;
+  font-weight: bold;
+  background-color: #222;
+  color: white;
+  width: 100px;
+}
+
+
 .navbar {
   display: flex;
-  background-color: #333;
+  background-color: #222;
   padding: 1rem;
   position: fixed;
   width: 100%;
@@ -35,7 +64,7 @@
 }
 
 .nav-link:hover {
-  color: #ffcc00;
+  color: salmon;
 }
 .max-width {
   @apply max-w-[1440px] mx-auto;
@@ -71,6 +100,9 @@
 
 .hero__title {
   @apply text-[72px] sm:text-[64px] text-[50px] font-extrabold mt-8;
+}
+.hero__title2 {
+  @apply text-[50px] sm:text-[42px] text-[28px] font-extrabold mt-8;
 }
 
 .hero__subtitle {
