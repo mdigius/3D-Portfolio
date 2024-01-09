@@ -10,7 +10,7 @@ const Projects = () => {
         <h1 className="hero__title">ChordSense</h1>
         <p className="hero__subtitle">Technologies: Swift, SwiftUI, SwiftData</p>
         <div>
-           
+        <Spline scene="https://prod.spline.design/C58UoR3CbthV7m49/scene.splinecode" />
           </div>
         
 
@@ -30,8 +30,9 @@ const Projects = () => {
         
         <h1 className="hero__title">The Enchanted Blades</h1>
         <p className="hero__subtitle">Technologies: Python, Pygame</p>
+
         <div>
-           
+        <Spline scene="https://prod.spline.design/Vv75dNPTZ2YIAEuQ/scene.splinecode" />
           </div>
         
         
