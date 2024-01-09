@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="hero mt-20">
         <div className="flex-1 mt-5 padding-x">
           <h1 className="hero__title">Michael Di Giuseppe</h1>
-          <p className="hero__subtitle">Software Engineering Student</p>
+          <p className="hero__subtitle">Software Engineering student at Western University </p>
           <div>
             
            <Spline scene="https://prod.spline.design/LvqbiIo9JA5QoUbK/scene.splinecode" className="-mt-10" />
