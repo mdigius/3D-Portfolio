@@ -15,6 +15,12 @@
   font-family: "Manrope", sans-serif;
 
 }
+.bullet-title{
+  @apply text-[27px] font-extrabold;
+}
+.bullet-p {
+  @apply text-[27px] font-medium;
+}
 .about-menu-container {
   display: flex;
   justify-content: center;

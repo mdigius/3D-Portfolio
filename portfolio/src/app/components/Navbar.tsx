@@ -8,23 +8,18 @@ const Navbar: React.FC = () => {
           <Link href="/">
             <p className="nav-link">Home</p>
           </Link>
-        
-          <Link href="/about">
-            <p className="nav-link">About</p>
-          </Link>
-       
-          <Link href="/services">
+    
+          <Link href="/projects">
             <p className="nav-link">Projects</p>
           </Link>
        
-          <Link href="/pricing">
+          <Link href="/resume">
             <p className="nav-link">Resume</p>
           </Link>
        
           <Link href="/contact">
             <p className="nav-link">Contact</p>
           </Link>
-       
     </nav>
   )
 }
