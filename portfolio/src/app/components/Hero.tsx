@@ -53,16 +53,6 @@ const Hero = () => {
           <div>
             <Spline scene="https://prod.spline.design/V2Qa5ez7u6zXz6EW/scene.splinecode" className="mt-5"/>
           </div>
-
-          <p className="hero__title2">AquaScaping</p>
-          <p className="hero__subtitle">- Been playing drums since the age of 5</p>
-          <p className="hero__subtitle">- Self-taught guitarist and bassist with 7 years of experience</p>
-          <p className="hero__subtitle">- Extensive experience in recording software/hardware and music production</p>
-          
-
-          
-          
-          
         </div>
         
       </div>
