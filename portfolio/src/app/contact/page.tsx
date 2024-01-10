@@ -1,12 +1,12 @@
 "use client"
 import Image from 'next/image'
-import { Projects } from '../components'
+import { Contact } from '../components'
 import Spline from '@splinetool/react-spline';
 
-export default function ProjectPage() {
+export default function ContactPage() {
   return (
     <main className="overflow-hidden">
-      <Projects></Projects>
+      <Contact></Contact>
       
       
     </main>

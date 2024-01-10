@@ -5,14 +5,14 @@ import Image from 'next/image'
 const Projects = () => {
   return (
     <main>
-    <div className="hero mt-20">
+    <div className="hero mt-20 mb-20">
       <div className="flex-1 mt-5 padding-x">
       <h1 className="hero__title">Projects</h1>
-      <p className='hero__subtitle'>Some of my favourite coding projects. More info available on my <a style={{color: 'darkblue'}} href='https://github.com/mdigius' target="_blank">GitHub</a>.</p>
+      <p className='hero__subtitle'>Some of my favourite coding projects. More info available on my <a style={{color: 'blue'}} href='https://github.com/mdigius' target="_blank">GitHub</a>.</p>
 
         <h1 className="hero__title">ChordSense</h1>
         <p className="hero__subtitle">Technologies: Swift, SwiftUI, SwiftData</p>
-        <p className='hero__subtitle'>- View on the <a style={{color: 'darkblue'}} href='https://apple.co/46o7lPk' target="_blank">App Store</a>.</p>
+        <p className='hero__subtitle'>- View on the <a style={{color: 'blue'}} href='https://apple.co/46o7lPk' target="_blank">App Store</a>.</p>
         <div>
         <Spline scene="https://prod.spline.design/C58UoR3CbthV7m49/scene.splinecode" />
           </div>
@@ -28,7 +28,7 @@ const Projects = () => {
 
         <h1 className="hero__title">HeroHub</h1>
         <p className="hero__subtitle">Technologies: NextJS, React, TypeScript, JavaScript, CORS, REST API, MongoDB</p>
-        <p className='hero__subtitle'>- View on <a style={{color: 'darkblue'}} href='https://github.com/mdigius/se3316-mdigius-lab4' target="_blank">GitHub</a>.</p>
+        <p className='hero__subtitle'>- View on <a style={{color: 'blue'}} href='https://github.com/mdigius/se3316-mdigius-lab4' target="_blank">GitHub</a>.</p>
         <div>
         <Spline scene="https://prod.spline.design/O9vV9RGtNLX1xX2S/scene.splinecode" className="object-contain"/>
           </div>
@@ -38,12 +38,13 @@ const Projects = () => {
             <p> ◦ RESTful API to provide functionality to the client, while preventing malicious injections with proper input
                   sanitization </p>
             <p> ◦ Admin account to disable other users, hide inappropriate comments, and respond to DMCA takedown requests </p>
+            <p> ◦ Hosted the application on an AWS web server </p>
             <p> ◦ Received a mark of 99% on the assignment</p>
         </div>
         
         <h1 className="hero__title">The Enchanted Blades</h1>
         <p className="hero__subtitle">Technologies: Python, Pygame</p>
-        <p className='hero__subtitle'>- View on <a style={{color: 'darkblue'}} href='https://github.com/mdigius/The-Enchanted-Blades' target="_blank">GitHub</a>.</p>
+        <p className='hero__subtitle'>- View on <a style={{color: 'blue'}} href='https://github.com/mdigius/The-Enchanted-Blades' target="_blank">GitHub</a>.</p>
 
         <div>
         <Spline scene="https://prod.spline.design/Vv75dNPTZ2YIAEuQ/scene.splinecode" />
