@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
         </p>
       </Link>
 
-      <Link href="/resume" target='_blank'>
+      <Link href="./Michael Di Giusepe - 2024.pdf" target='_blank'>
         <p className={`nav-link`} >
           Resume
         </p>
