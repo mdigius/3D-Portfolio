@@ -11,17 +11,14 @@ const Hero = () => {
         <div className="flex-1 mt-5 padding-x">
           <h1 className="hero__title">Michael Di Giuseppe</h1>
           <p className="hero__subtitle">Software Engineering student at Western University </p>
-          <div>
-           <Spline scene="https://prod.spline.design/LvqbiIo9JA5QoUbK/scene.splinecode" className="-mt-10" />
-          </div>
-        
-      
 
-     
-       
+          <div className='spline-container'>
+           <Spline scene="https://prod.spline.design/LvqbiIo9JA5QoUbK/scene.splinecode" className="" />
+          </div>
+
           <h1 className="hero__title2">Work Sample - ChordSense</h1>
-          <div>
-          <Spline scene="https://prod.spline.design/PY4VuAUXnJZmArgO/scene.splinecode" className='-mt-20 mb-3'/>
+          <div className='spline-container'>
+          <Spline scene="https://prod.spline.design/PY4VuAUXnJZmArgO/scene.splinecode" className='mb-3'/>
           </div>
           <div className='hero__subtitle'>
             <p>- Music theory application that I developed from scratch using Swift</p>
@@ -32,25 +29,31 @@ const Hero = () => {
           
             
           <h1 className="hero__title2">Programming Languages</h1>
-          <p className="hero__subtitle">Profiency in:</p>
-          <div>
-          <Spline scene="https://prod.spline.design/IECKvPJxVMNT1g2G/scene.splinecode" className="-mt-20"/>
+          <div className='hero__subtitle'>
+            <p>Profiency in:</p>
+          </div>
+          <div className='spline-container'>
+          <Spline scene="https://prod.spline.design/IECKvPJxVMNT1g2G/scene.splinecode"/>
           </div>
 
           <h1 className="hero__title">Hobbies</h1>
-          <p className="hero__title2">Music</p>
-          <p className="hero__subtitle">- Drummer with 16 years of experience</p>
-          <p className="hero__subtitle">- Self-taught guitarist and bassist with 7 years of experience</p>
-          <p className="hero__subtitle">- Extensive experience in recording software/hardware and music production</p>
-          <p className="hero__title2">Click on the TV screen to play/pause!</p>
-          <div>
+          <div className='hero__subtitle'>
+            <p>Music</p>
+            <p>- Drummer with 16 years of experience</p>
+            <p>- Self-taught guitarist and bassist with 7 years of experience</p>
+            <p>- Extensive experience in recording software/hardware and music production</p>
+            <p className="hero__title2">Click on the TV screen to play/pause!</p>
+          </div>
+          <div className='spline-container'>
           <Spline scene="https://prod.spline.design/7VqAs5RA8PcjxPOb/scene.splinecode" />
           </div>
 
-          <p className="hero__title2">Art</p>
-          <p className="hero__subtitle">- Beginner artist</p>
-          <p className="hero__subtitle">- Enjoy being creative as I believe being artistic is an important aspect of software engineering</p>
-          <div>
+          <h2 className="hero__title2">Art</h2>
+          <div className='hero__subtitle'>
+            <p>- Beginner artist</p>
+            <p>- Enjoy being creative as I believe it directly translates into web development, resulting in better user experiences</p>
+          </div>
+          <div className='spline-container'>
             <Spline scene="https://prod.spline.design/V2Qa5ez7u6zXz6EW/scene.splinecode" className="mt-5"/>
           </div>
           </div>

@@ -13,7 +13,7 @@ const Projects = () => {
         <h1 className="hero__title">ChordSense</h1>
         <p className="hero__subtitle">Technologies: Swift, SwiftUI, SwiftData</p>
         <p className='hero__subtitle'>- View on the <a style={{color: 'blue'}} href='https://apple.co/46o7lPk' target="_blank">App Store</a>.</p>
-        <div>
+        <div className='spline-container'>
         <Spline scene="https://prod.spline.design/C58UoR3CbthV7m49/scene.splinecode" />
           </div>
 
@@ -29,7 +29,7 @@ const Projects = () => {
         <h1 className="hero__title">HeroHub</h1>
         <p className="hero__subtitle">Technologies: NextJS, React, TypeScript, JavaScript, CORS, REST API, MongoDB</p>
         <p className='hero__subtitle'>- View on <a style={{color: 'blue'}} href='https://github.com/mdigius/se3316-mdigius-lab4' target="_blank">GitHub</a>.</p>
-        <div>
+        <div className='spline-container'>
         <Spline scene="https://prod.spline.design/O9vV9RGtNLX1xX2S/scene.splinecode" className="object-contain"/>
           </div>
         <div className='hero__subtitle'>
@@ -46,7 +46,7 @@ const Projects = () => {
         <p className="hero__subtitle">Technologies: NextJS, React Leaflet, MongoDB</p>
         <p className='hero__subtitle'>- View on <a style={{color: 'blue'}} href='https://github.com/mdigius/greenguard' target="_blank">GitHub</a>.</p>
 
-        <div>
+        <div className='spline-container'>
         <Spline scene="https://prod.spline.design/uz3sTgah5aVm4hmx/scene.splinecode" />
           </div>
           <div className='hero__subtitle'>
@@ -61,7 +61,7 @@ const Projects = () => {
         <p className="hero__subtitle">Technologies: Python, Pygame</p>
         <p className='hero__subtitle'>- View on <a style={{color: 'blue'}} href='https://github.com/mdigius/The-Enchanted-Blades' target="_blank">GitHub</a>.</p>
 
-        <div>
+        <div className='spline-container'>
         <Spline scene="https://prod.spline.design/Vv75dNPTZ2YIAEuQ/scene.splinecode" />
           </div>
           <div className='hero__subtitle'>
