@@ -27,8 +27,8 @@ const Navbar: React.FC = () => {
         </p>
       </Link>
 
-      <Link href="/resume">
-        <p className={`nav-link ${currentPage === 'resume' ? 'salmon-text' : ''}`} onClick={() => handleLinkClick('resume')}>
+      <Link href="/resume" target='_blank'>
+        <p className={`nav-link`} >
           Resume
         </p>
       </Link>

@@ -41,6 +41,21 @@ const Projects = () => {
             <p> ◦ Hosted the application on an AWS web server </p>
             <p> ◦ Received a mark of 99% on the assignment</p>
         </div>
+
+        <h1 className="hero__title">Greenguard Systems</h1>
+        <p className="hero__subtitle">Technologies: NextJS, React Leaflet, MongoDB</p>
+        <p className='hero__subtitle'>- View on <a style={{color: 'blue'}} href='https://github.com/mdigius/greenguard' target="_blank">GitHub</a>.</p>
+
+        <div>
+        <Spline scene="https://prod.spline.design/uz3sTgah5aVm4hmx/scene.splinecode" />
+          </div>
+          <div className='hero__subtitle'>
+            <p> ◦ Submission for the 2024 Western Engineering Competition</p>
+            <p> ◦ Challenged to develop a system that will help emergency services track and report natural disasters</p>
+            <p> ◦ Worked with a group of 3 others to complete the task in only 7 hours</p>
+            <p> ◦ A valuable learning experience with an emphasis on teamwork and communication</p>
+            <p> ◦ Placed 3rd amongst 20+ competing teams</p>
+        </div>
         
         <h1 className="hero__title">The Enchanted Blades</h1>
         <p className="hero__subtitle">Technologies: Python, Pygame</p>
