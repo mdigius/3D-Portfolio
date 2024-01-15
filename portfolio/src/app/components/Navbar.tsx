@@ -16,13 +16,13 @@ const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
       <Link href="/">
-        <p className={`nav-link ${currentPage === 'home' ? 'salmon-text' : ''}`} onClick={() => handleLinkClick('home')}>
+        <p className={`nav-link ${currentPage === 'home' ? 'text' : ''}`} onClick={() => handleLinkClick('home')}>
           Home
         </p>
       </Link>
 
       <Link href="/projects">
-        <p className={`nav-link ${currentPage === 'projects' ? 'salmon-text' : ''}`} onClick={() => handleLinkClick('projects')}>
+        <p className={`nav-link ${currentPage === 'projects' ? 'text' : ''}`} onClick={() => handleLinkClick('projects')}>
           Projects
         </p>
       </Link>
@@ -34,14 +34,14 @@ const Navbar: React.FC = () => {
       </Link>
 
       <Link href="/contact">
-        <p className={`nav-link ${currentPage === 'contact' ? 'salmon-text' : ''}`} onClick={() => handleLinkClick('contact')}>
+        <p className={`nav-link ${currentPage === 'contact' ? 'text' : ''}`} onClick={() => handleLinkClick('contact')}>
           Contact
         </p>
       </Link>
 
       <style jsx>{`
-        .salmon-text {
-          color: salmon;
+        .text {
+          color: skyblue;
         }
       `}</style>
     </nav>

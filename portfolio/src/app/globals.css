@@ -80,7 +80,7 @@
 }
 
 .nav-link:hover {
-  color: salmon;
+  color: skyblue;
 }
 .max-width {
   @apply max-w-[1440px] mx-auto;
